@@ -45,3 +45,15 @@ let lastName=Weldekidan;
 console.log('Full Name: ' + firstName + lastName);
 
 
+If you are all ready, try this exercise..
+
+Write a function that takes a parameter PH value, and the function should check if the PH value is acidic, basic or neutral. If i remember my chemistry correctly, <7 is acidic, 7 is neutral, >7 is basic/alkaline.
+
+let PH =7;
+if(PH>7){
+    console.log('It is basic')
+} else if(PH< 7){
+    console.log('It is acidic')
+} else{
+    console.log('It is neutral')
+}
