@@ -3,7 +3,7 @@ EX. 1-
 Create a variable to store car type, then assign the value BMW to the variable
 */
 
-let carType= BMW ;
+let carType= 'BMW ';
 
 
 
@@ -14,15 +14,13 @@ Create another variable to store the length of your last name
 Create a third variable and give it the sum of the two variables
 Then change the value of the third variable to be the product of the first two variables
 */
-
 let firstNameLength=9;
 let lastNameLength=10;
-let fullNameLength= firstNameLength + lastNameLength;
-
+let fullNameLength=firstNameLength + lastNameLength;
+    fullNameLength=firstNameLength*lastNameLength;
 console.log(fullNameLength);
 
-let fullNameLength=firstNameLength*lastNameLength;
-console.log(fullNameLength);
+
 
 
 
@@ -37,15 +35,17 @@ EX. 3-
  Use the same logic to switch the names from one of the variables to the other
 */
 
-let firstName=Weldekidan;
-let lastName=Getabicha;
-let tempName=Weldekidan;
-let firstName=Getabicha;
-let lastName=Weldekidan;
-console.log('Full Name: ' + firstName + lastName);
+let firstName='Weldekidan';
+let lastName='Getabicha';
+let tempName;
+    tempName=firstName;
+    firstName=lastName;
+    lastName=tempName;
+
+console.log();
 
 
-If you are all ready, try this exercise..
+/*If you are all ready, try this exercise..
 
 Write a function that takes a parameter PH value, and the function should check if the PH value is acidic, basic or neutral. If i remember my chemistry correctly, <7 is acidic, 7 is neutral, >7 is basic/alkaline.
 
@@ -56,4 +56,5 @@ if(PH>7){
     console.log('It is acidic')
 } else{
     console.log('It is neutral')
-}
+}*/
+
